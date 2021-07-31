@@ -1,0 +1,4 @@
+set cbrange [ 0.00000 : 2.2508033599 ] noreverse nowriteback
+set xrange [ -0.500000 : 70.05 ] noreverse nowriteback
+set yrange [ -0.500000 : 70.05 ] noreverse nowriteback
+plot 'Euk_Arg.mfa.limpio.cL.mif'  using 1:2:3 with image

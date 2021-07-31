@@ -1,0 +1,23 @@
+
+unset key
+set view map
+set xtics border in scale 0,0 mirror norotate  offset character 0, 0, 0
+set ytics border in scale 0,0 mirror norotate  offset character 0, 0, 0
+set ztics border in scale 0,0 nomirror norotate  offset character 0, 0, 0
+#set nocbtics 
+set rrange [ * : * ] noreverse nowriteback  # (currently [8.98847e+307:-8.98847e+307] )
+set trange [ * : * ] noreverse nowriteback  # (currently [-5.00000:5.00000] )
+set urange [ * : * ] noreverse nowriteback  # (currently [-5.00000:5.00000] )
+set vrange [ * : * ] noreverse nowriteback  # (currently [-5.00000:5.00000] )
+set x2range [ * : * ] noreverse nowriteback  # (currently [-0.500000:4.50000] )
+set y2range [ * : * ] noreverse nowriteback  # (currently [-0.500000:4.50000] )
+set zrange [ * : * ] noreverse nowriteback  # (currently [0.00000:5.00000] )
+
+set palette defined (  0 1 1 1 , 1 0 0 0)
+
+set ylabel 'Distancia'
+set xlabel 'Ventana'
+set clabel 'Abundancia'
+
+set xtic 2
+set ytics 2

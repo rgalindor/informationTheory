@@ -1,0 +1,3 @@
+python matrixentrg2.py Euk_Arg.mfa.limpio.cL 1 1
+cat fijo.gpl Euk_Arg.mfa.limpio.cL.gpl > a.gpl
+gnuplot -persist a.gpl
